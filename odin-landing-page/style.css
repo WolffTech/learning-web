@@ -3,6 +3,14 @@ a {
     color:#F9FAf8;
 }
 
+body {
+    background-color: #1F2937;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
 .container {
     display: flex;
 }
@@ -21,7 +29,6 @@ a {
     flex-direction: row;
     align-items: center;
     color: #F9FAf8;
-    background-color: #1F2937;
     padding: 20px, 0, 20px, 100px;
 }
 
@@ -91,3 +98,4 @@ a {
     font-family: 'Roboto', arial;
     text-decoration: none;
 }
+
