@@ -27,7 +27,7 @@ a {
 
 .header img {
     height: 50px;
-    margin-right: 50px;
+    margin-right: 25px;
     margin-left: 50px;
 }
 
@@ -43,4 +43,34 @@ a {
     padding: 20px;
     text-decoration: none;
     color: #F9FAf8;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAf8;
+    padding: 100px;
+    font-family: "Roboto", arial;
+}
+
+.hero-1 p {
+    font-size: 12;
+    color: 
+}
+
+.hero-2 {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.hero-2 img {
+    height: 300px;
+    margin-right: auto;
+    margin-left: 20px;
+    padding: 100px
 }
