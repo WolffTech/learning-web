@@ -99,3 +99,35 @@ body {
     text-decoration: none;
 }
 
+.content {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    padding: 50px;
+    font-family: 'Roboto', arial;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 50px;
+    font-family: 'Roboto', arial;
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 50px;
+    font-family: 'Roboto', arial;
+}
+
+.content-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 50px;
+    font-family: 'Roboto', arial;
+}
+
