@@ -47,6 +47,10 @@ a {
 
 .hero {
     display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
 }
 
 .hero-1 {
@@ -54,13 +58,13 @@ a {
     flex-direction: column;
     background-color: #1F2937;
     color: #F9FAf8;
-    padding: 100px;
+    padding: 50px;
     font-family: "Roboto", arial;
 }
 
 .hero-1 p {
-    font-size: 12;
-    color: 
+    font-size: 12px;
+    color: #808080;
 }
 
 .hero-2 {
@@ -71,8 +75,8 @@ a {
 .hero-2 img {
     height: 300px;
     margin-right: auto;
-    margin-left: 20px;
-    padding: 100px
+    margin-left: 40px;
+    padding: 50px
 }
 
 .hero button {
