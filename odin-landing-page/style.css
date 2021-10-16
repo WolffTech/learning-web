@@ -11,8 +11,15 @@ body {
     font-family: 'Roboto', arial;
 }
 
+.web {
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logotext {
@@ -27,7 +34,6 @@ body {
 .header {
     display: flex;
     flex-direction: row;
-    align-items: center;
     color: #F9FAf8;
     padding: 20px, 0, 20px, 100px;
 }
@@ -63,6 +69,7 @@ body {
 .hero-1 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #1F2937;
     color: #F9FAf8;
     padding: 50px;
@@ -86,7 +93,7 @@ body {
     padding: 50px
 }
 
-.hero button {
+button {
     display: block;
     text-align: center;
     width: 110px;
@@ -141,6 +148,34 @@ body {
     font-weight: bold;
 }
 
+.sign-up {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 50px 50px;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-item {
+    flex: 1;
+}
+
+.sign-text {
+    color: #fff;
+    opacity: 0.8;
+    margin: 5px 30px 30px 50px;
+}
+
+.sign-button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    font-size: 12px;
+}
 
 .footer {
     display: flex;
