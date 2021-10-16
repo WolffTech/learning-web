@@ -131,3 +131,13 @@ body {
     font-family: 'Roboto', arial;
 }
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-family: 'Roboto', arial;
+    color: #fff;
+}
