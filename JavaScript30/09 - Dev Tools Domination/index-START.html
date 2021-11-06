@@ -18,28 +18,76 @@
     }
 
     // Regular
+    console.log('hello');
 
     // Interpolated
+    // ES5 takes whatever variable is given as the second string and inserts it into the first string %s
+    console.log('Hello I am a %s string!', '💩');
+    // ES6 using backticks and ${} allows you to interpolate variables into strings directly
+    console.log(`Hello I am a ${'💩'} string!`);
 
     // Styled
+    // %c allows you to style the string with whatever is in the second argument(string)
+    console.log('%c I am some great text', 'font-size: 50px; background: red; text-shadow: 10px 10px 0 blue');
 
     // warning!
+    console.warn('OH NOOO');
 
     // Error :|
+    console.error('Crap!');
 
     // Info
+    console.info('I am some info');
 
     // Testing
+    // only runes when something is false
+    console.assert(1 === 2, 'That is wrong!');
+    // example
+    const p = document.querySelector('p');
+    console.assert(p.classList.contains('ouch'), 'That is wrong!');
 
     // clearing
+    // clears the console
+    console.clear();
 
     // Viewing DOM Elements
+    console.log(p);
+    // console.dir allows you to look at all the different properties and prototypes of an object in the dom.
+    console.dir(p);
 
     // Grouping together
+    dogs.forEach(function(dog) {
+      console.groupCollapsed(`${dog.name}`);
+      console.log(`This is ${dog.name}`);
+      console.log(`${dog.name} is ${dog.age} years old`);
+      console.log(`${dog.name} is ${dog.age * 7} dog years old`);
+      console.groupEnd(`${dog.name}`);
+    });
 
     // counting
+    console.count('Wes');
+    console.count('Wes');
+    console.count('Steve');
+    console.count('Steve');
+    console.count('Steve');
+    console.count('Wes');
+    console.count('Wes');
+    console.count('Steve');
+    console.count('Steve');
+    console.count('Wes');
 
     // timing
+    // see how long something takes
+    console.time('fetching data');
+    fetch('https://api.github.com/users/wolfftech')
+      .then(data => data.json())
+      .then(data => {
+        console.timeEnd('fetching data');
+        console.log(data);
+      });
+
+    // table
+    console.table(dogs);
 
   </script>
 </body>
