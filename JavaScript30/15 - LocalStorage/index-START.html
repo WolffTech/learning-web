@@ -28,7 +28,52 @@
 <script>
   const addItems = document.querySelector('.add-items');
   const itemsList = document.querySelector('.plates');
-  const items = [];
+  // checks local storage for items key, if non-existent, then uses empty array.
+  const items = JSON.parse(localStorage.getItem('items')) || [];
+
+  function addItem(e) {
+    e.preventDefault(); // prevents the page from reloading as forms will reload the page or send the data to external source.
+    const text = (this.querySelector('[name=item]')).value;
+    const item = {
+      text,
+      done: false
+    };
+
+    items.push(item);
+    populateList(items, itemsList);
+    // local storage only holds key string values so things will need to be turned into a string before being saved.
+    // send data to local storage
+    localStorage.setItem('items', JSON.stringify(items)); // JSON.stringify will change objects into text
+    this.reset();
+  }
+
+  // this function rewrites the whole list, which can impact performance if run often.
+  function populateList(plates = [], platesList) {
+    platesList.innerHTML = plates.map((plate, i) => {
+      return `
+      <li>
+        <input type="checkbox" data-index=${i} id="item${i}" ${plate.done ? 'checked' : ''} />
+        <label for="item${i}">${plate.text}</label>
+      </li>
+      `;
+    }).join('');
+  }
+
+  function toggleDone(e) {
+    if(!e.target.matchs('input')) return; // skips this unless it's a input
+    const el = e.target;
+    const index = el.dataset.index;
+    items[index].done = !items[index].done;
+    localStorage.setItem('items', JSON.stringify(items));
+    populateList(items, itemList);
+  }
+
+  addItems.addEventListener('submit', addItem);
+  itemsList.addEventListener('click', toggleDone)
+  // call from local storage 
+  populateList(items, itemsList);
+
+
 
 </script>
 
