@@ -177,11 +177,35 @@
     <li data-time="1:56">
       Video 57
     </li>
-    <li data-time="4:04">
+    <li data-time="4:02">
       Video 58
     </li>
   </ul>
 <script>
+  const timeGiven = document.querySelectorAll('[data-time]');
+  // change timeGiven from a NodeList into a array
+  const timeGivenArray = Array.from(timeGiven);
+  // one line method if NodeList isn't needed
+  // const timeGiven = Array.from(document.querySelectorAll('[data-time]'));
+
+  const seconds = timeGivenArray
+    .map(time => time.dataset.time) // turns into a array of strings
+    .map(timeCode => {
+      const [min, sec] = timeCode.split(':').map(parseFloat); // map parseFloat changes strings generated into floating numbers
+      return (min * 60) + sec; // convert min to seconds and add on any remaining seconds.
+    })
+    .reduce((total, vidSeconds) => total + vidSeconds); // creates total number of seconds from list.
+
+  // calculate time
+  let secondsLeft = seconds;
+  const hours = Math.floor(secondsLeft / 3600);
+  secondsLeft = secondsLeft % 3600;
+
+  const minutes = Math.floor(secondsLeft / 60);
+  secondsLeft = secondsLeft % 60;
+
+  // result
+  console.log(hours, minutes, secondsLeft);
 </script>
 </body>
 </html>
