@@ -1,0 +1,23 @@
+{
+  "name": "odin-etch-a-sketch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildcss": "tailwindcss build ./res/style.css -o ./public/style.css",
+    "prod": "NODE_ENV=production postcss ./res/style.css -o ./public/style.css",
+    "start": "browser-sync start --server \"public\" --files \"*.css, *.html, *.js\" --watch \"*.css, *.html, *.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.7"
+  }
+}
