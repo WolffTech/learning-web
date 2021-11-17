@@ -36,7 +36,6 @@ function reloadGrid() {
 
 function changeColor(e) {
     e.target.style.backgroundColor = colorPicker.value;
-
 }
 
 function setCurrentMode(mode) {
@@ -54,10 +53,18 @@ function setCurrentMode(mode) {
     }
 }
 
+function changeSize(size) {
+    currentSize = size;
+    sizeValue.innerHTML = `${size} x ${size}`;
+    reloadGrid();
+    console.log(currentSize);
+}
+
 colorPicker.onchange = (e) => setCurrentColor(e.target.value);
 drawButton.onclick = () => setCurrentMode('draw');
 eraserButton.onclick = () => setCurrentMode('eraser');
 clearButton.onclick = () => reloadGrid();
+sizeSlider.onchange = (e) => changeSize(e.target.value);
 
 window.onload = () => {
     setupGrid(defaultSize);
