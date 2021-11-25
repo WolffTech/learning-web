@@ -26,6 +26,9 @@ This folder contains the notes that I took following along with Traversy Media's
 This folder contains all of the exercises that I have completed on [Exercism](https://exercism.io/).
 
 This is a list of all of the exercises that I have completed on Exercism's JavaScript track.
+<details>
+<summary>Click to view list</summary>
+
 - [Annalyns Infiltration](https://exercism.io/tracks/javascript/exercises/annalyns-infiltration)
 - [Bird Watcher](https://exercism.io/tracks/javascript/exercises/bird-watcher)
 - [Elyses Enchantments](https://exercism.io/tracks/javascript/exercises/elyses-enchantments)
@@ -33,39 +36,44 @@ This is a list of all of the exercises that I have completed on Exercism's JavaS
 - [Lasagna From Scratch](https://exercism.io/tracks/javascript/exercises/lasagna-from-scratch)
 - [Poetry Club Door Policy](https://exercism.io/tracks/javascript/exercises/poetry-club-door-policy)
 - [Vehicle Purchase](https://exercism.io/tracks/javascript/exercises/vehicle-purchase)
+</details>
 
 ___
 ## Javascript 30 Days of Code
 This folder contains the different projects worked on during the [Javascript 30 days of code](https://javascript30.com) challenge course provided by Wes Bos. These projects are to help learn real applications of Javascript outside of just learning basic concepts. Completed these over the span of a week, but the files are great to reference back to, as they cover a lot.
 
 The different Posts are listed below.
-- Day 1: JavaScript Drum Kit
-- Day 2: CSS + Javascript Clock
-- Day 3: Playing with CSS Variables and Javascript
-- Day 4: Array Cardio Day 1
-- Day 5: Flex Panels Image Gallery
-- Day 6: Ajax Type Ahead
-- Day 7: Array Cardio Day 2
-- Day 8: Fun with HTML5 Canvas
-- Day 9: Dev Tool Tricks and Debugging
-- Day 10: Hold Shift to Check Multiple Checkboxes
-- Day 11: Custom HTML5 Video Player
-- Day 12: Ke Sequence Detection
-- Day 13: Slide in on Scroll
-- Day 14: Object and Arrays - References vs Copying
-- Day 15: LocalStorage and Event Delegation
-- Day 16: CSS Text Shadow Mouse Move Effect
-- Day 17: Sorting Band Names without articles
-- Day 18: Tally String Times with Reduce
-- Day 19: Webcam Photo booth
-- Day 20: Native Speech Recognition (This project is out of date)
-- Day 21: Geolocation based Speedometer and Compass
-- Day 22: Follow Along Links
-- Day 23: Speech Synthesis
-- Day 24: Sticky Nav
-- Day 25: Event Capture, Propagation, Bubbling and Once
-- Day 26: Stripe Follow ALong Dropdown Menu
-- Day 27: Click on Drag to Scroll
-- Day 28: Video Speed Controller UI
-- Day 29: Countdown Clock
-- Day 30: Wack A Mole Game - https://wolfftech.github.io/LearningWeb/JavaScript30/30%20-%20Whack%20A%20Mole/index-START.html
+<details>
+<summary>Click to view list</summary>
+
+* Day 1: JavaScript Drum Kit
+* Day 2: CSS + Javascript Clock
+* Day 3: Playing with CSS Variables and Javascript
+* Day 4: Array Cardio Day 1
+* Day 5: Flex Panels Image Gallery
+* Day 6: Ajax Type Ahead
+* Day 7: Array Cardio Day 2
+* Day 8: Fun with HTML5 Canvas
+* Day 9: Dev Tool Tricks and Debugging
+* Day 10: Hold Shift to Check Multiple Checkboxes
+* Day 11: Custom HTML5 Video Player
+* Day 12: Ke Sequence Detection
+* Day 13: Slide in on Scroll
+* Day 14: Object and Arrays - References vs Copying
+* Day 15: LocalStorage and Event Delegation
+* Day 16: CSS Text Shadow Mouse Move Effect
+* Day 17: Sorting Band Names without articles
+* Day 18: Tally String Times with Reduce
+* Day 19: Webcam Photo booth
+* Day 20: Native Speech Recognition (This project is out of date)
+* Day 21: Geolocation based Speedometer and Compass
+* Day 22: Follow Along Links
+* Day 23: Speech Synthesis
+* Day 24: Sticky Nav
+* Day 25: Event Capture, Propagation, Bubbling and Once
+* Day 26: Stripe Follow ALong Dropdown Menu
+* Day 27: Click on Drag to Scroll
+* Day 28: Video Speed Controller UI
+* Day 29: Countdown Clock
+* Day 30: Wack A Mole Game - https://wolfftech.github.io/LearningWeb/JavaScript30/30%20-%20Whack%20A%20Mole/index-START.html
+</details>
