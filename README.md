@@ -36,6 +36,7 @@ This is a list of all of the exercises that I have completed on Exercism's JavaS
 - [Lasagna From Scratch](https://exercism.io/tracks/javascript/exercises/lasagna-from-scratch)
 - [Poetry Club Door Policy](https://exercism.io/tracks/javascript/exercises/poetry-club-door-policy)
 - [Vehicle Purchase](https://exercism.io/tracks/javascript/exercises/vehicle-purchase)
+- [Mixed Juices](https://exercism.io/tracks/javascript/exercises/mixed-juices)
 </details>
 
 ___
