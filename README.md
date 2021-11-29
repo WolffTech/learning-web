@@ -38,6 +38,7 @@ This is a list of all of the exercises that I have completed on Exercism's JavaS
 - [Vehicle Purchase](https://exercism.io/tracks/javascript/exercises/vehicle-purchase)
 - [Mixed Juices](https://exercism.io/tracks/javascript/exercises/mixed-juices)
 - [Gigasecond](https://exercism.io/tracks/javascript/exercises/gigasecond)
+- [High Score Board](https://exercism.io/tracks/javascript/exercises/high-score-board)
 </details>
 
 ___
