@@ -16,7 +16,10 @@ export class OverheatingError extends Error {
  * @throws {Error}
  */
 export function checkHumidityLevel(humidityPercentage) {
-  throw new Error('Implement the checkHumidity function');
+    if (humidityPercentage > 70 ) {
+        throw new ArgumentError('Humitiy is over threshold! ${humidityPercentage}');
+    }
+    return undefined;
 }
 
 /**
@@ -26,7 +29,13 @@ export function checkHumidityLevel(humidityPercentage) {
  * @throws {ArgumentError|OverheatingError}
  */
 export function reportOverheating(temperature) {
-  throw new Error('Implement the reportOverheating function');
+    if (temperature) {
+        if (temperature > 500) {
+            throw new OverheatingError(temperature);
+        }
+        return undefined;
+    }
+    throw new ArgumentError('Temperature is not defined!');
 }
 
 /**
@@ -41,5 +50,15 @@ export function reportOverheating(temperature) {
  * @throws {ArgumentError|OverheatingError|Error}
  */
 export function monitorTheMachine(actions) {
-  throw new Error('Implement the monitorTheMachine function');
+    try {
+        actions.check();
+    } catch (e) {
+        if (e instanceof ArgumentError) {
+            actions.alertDeadSensor();
+        } else if (e instanceof OverheatingError) {
+            e.temperature >= 600 ? actions.shutdown() : actions.alertOverheating();
+        } else {
+            throw e;
+        }
+    }
 }
