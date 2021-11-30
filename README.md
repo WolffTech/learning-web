@@ -39,6 +39,7 @@ This is a list of all of the exercises that I have completed on Exercism's JavaS
 - [Mixed Juices](https://exercism.io/tracks/javascript/exercises/mixed-juices)
 - [Gigasecond](https://exercism.io/tracks/javascript/exercises/gigasecond)
 - [High Score Board](https://exercism.io/tracks/javascript/exercises/high-score-board)
+- [Amusement Park](https://exercism.io/tracks/javascript/exercises/amusement-park)
 </details>
 
 ___
