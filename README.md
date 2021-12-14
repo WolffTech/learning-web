@@ -42,7 +42,8 @@ This is a list of all of the exercises that I have completed on Exercism's JavaS
 - [Amusement Park](https://exercism.io/tracks/javascript/exercises/amusement-park)
 - [Factory Sensors](https://exercism.io/tracks/javascript/exercises/factory-sensors)
 - [Lucky Numbers](https://exercism.io/tracks/javascript/exercises/lucky-numbers)
-- [Lasagna Master](https://exercism.io/traxks/javascript/exercises/lasagna-master)
+- [Lasagna Master](https://exercism.io/tracks/javascript/exercises/lasagna-master)
+- [Fruit Picker](https://exercism.io/tracks/javascript/exercises/fruit-picker)
 </details>
 
 ___
