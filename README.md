@@ -46,6 +46,7 @@ This is a list of all of the exercises that I have completed on Exercism's JavaS
 - [Fruit Picker](https://exercism.io/tracks/javascript/exercises/fruit-picker)
 - [Elyses Looping Enchantments](https://exercism.io/tracks/javascript/exercises/elyses-looping-enchantments)
 - [Elyses Analytic Enchantments](https://exercism.io/tracks/javascript/exercises/elyses-analytic-enchantments)
+- [Elyses Destructured Enchantments](https://exercism.io/tracks/javascript/exercises/elyses-destructured-enchantments)
 </details>
 
 ___
