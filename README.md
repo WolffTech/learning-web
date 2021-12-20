@@ -48,6 +48,7 @@ This is a list of all of the exercises that I have completed on Exercism's JavaS
 - [Elyses Analytic Enchantments](https://exercism.io/tracks/javascript/exercises/elyses-analytic-enchantments)
 - [Elyses Destructured Enchantments](https://exercism.io/tracks/javascript/exercises/elyses-destructured-enchantments)
 - [Custom Signs](https://exercism.io/tracks/javascript/exercises/custom-signs)
+- [Coordinate Transformation](https://exercism.io/tracks/javascript/exercises/coordinate-transformation)
 
 </details>
 
